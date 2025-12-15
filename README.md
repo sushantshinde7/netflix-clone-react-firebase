@@ -3,8 +3,9 @@
 A fully responsive **Netflix-inspired web application** built with **React, Vite, and Firebase Authentication**, powered by the **TMDB API**.  
 This project focuses on clean UI, scalable architecture, and real-world production practices.
 
-> 🔗 Live Demo: https://react-time-tools.vercel.app  
-> 📦 Repository: react-netflix-firebase-clone
+> 🔗 Live Demo: [react-time-tools.vercel](https://my-netflix-clone-react.vercel.app/)
+
+> 📦 Repository: [react-netflix-firebase-clone](https://github.com/sushantshinde7/netflix-clone-react-firebase)
 
 ---
 
@@ -127,24 +128,20 @@ This project is deployed on **Vercel**.
 ## 🧪 Authentication Flow
 
 ```txt
-config.js
- └── Initializes Firebase App (singleton)
+config.js  ──Initializes Firebase App (singleton)
 
-firebaseAuth.js
- └── Creates Firebase Auth instance
+firebaseAuth.js ──Creates Firebase Auth instance
 
-firebaseActions.js
- └── Handles signup / login / logout
+firebaseActions.js ──Handles signup / login / logout
 
-App.jsx
- └── Controls routing via onAuthStateChanged
+App.jsx ──Controls routing via onAuthStateChanged
  ```
 
 
 ##This ensures:
--No duplicate Firebase initialization
--Clean separation of concerns
--Production-safe architecture
+- No duplicate Firebase initialization
+- Clean separation of concerns
+- Production-safe architecture
 ## 📌 Why This Project?
 
 This repository demonstrates:
