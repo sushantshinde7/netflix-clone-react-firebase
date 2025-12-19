@@ -9,31 +9,36 @@ This project focuses on clean UI, scalable architecture, and real-world producti
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔐 **Authentication**
-  - Email & Password authentication using **Firebase Auth**
-  - Secure login, signup, and logout
-  - Auth state persistence across refresh
+| Category | Feature |
+|--------|---------|
+| Authentication | Email & Password authentication using Firebase Auth |
+| Authentication | Secure login, signup, and logout flows |
+| Authentication | Auth state persistence across page refresh |
+| Authentication | Automatic redirect based on authentication state |
+| Movie & TV Content | Real-time movie and TV data fetched from TMDB API |
+| Movie & TV Content | Categorized rows for trending, popular, upcoming, and top-rated content |
+| Movie & TV Content | Netflix-style reusable content rows |
+| Player & Media | Dedicated movie player page |
+| Player & Media | Dynamic trailer fetching via TMDB Videos API |
+| Player & Media | Embedded YouTube trailer playback |
+| Routing & Navigation | Client-side routing using React Router |
+| Routing & Navigation | Protected navigation flow for authenticated users |
+| Routing & Navigation | Dynamic player routes using `/player/:id` |
+| UI / UX | Netflix-inspired modern user interface |
+| UI / UX | Hero banner with featured content |
+| UI / UX | Fully responsive layout for desktop and mobile |
+| UI / UX | Smooth hover effects and transitions |
+| User Feedback | Toast notifications for authentication feedback |
+| User Feedback | Visual loading spinner during auth operations |
+| State & Async Handling | Centralized auth state handling with Firebase listeners |
+| State & Async Handling | Loading state management during authentication |
+| State & Async Handling | Graceful error handling for API requests |
+| Performance & DX | Vite-powered fast builds and hot module replacement |
+| Performance & DX | Lazy loading and optimized imports |
+| Performance & DX | Environment-based configuration for API keys |
 
-- 🎞️ **Movie & TV Content**
-  - Trending, popular, upcoming movies & shows
-  - Netflix-style categorized rows
-  - Dynamic movie data from **TMDB API**
-
-- ▶️ **Player Page**
-  - Dedicated movie player route
-  - Dynamic routing using React Router
-
-- 🎨 **UI / UX**
-  - Netflix-inspired modern UI
-  - Fully responsive (desktop & mobile)
-  - Smooth hover effects and transitions
-
-- ⚡ **Performance & DX**
-  - Vite for fast builds & HMR
-  - Lazy loading & optimized imports
-  - Environment-based configuration
 
 ---
 
